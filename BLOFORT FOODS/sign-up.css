@@ -1,0 +1,82 @@
+body{
+    background-color: aliceblue;
+    margin-top: 100px;
+}
+
+.p{
+    background-image: url(./images/sign\ up.png);
+    color: white;
+    background-size: cover;
+  height: 30rem;
+  text-align: center;
+  width: 20rem;
+}
+
+.p p{
+   margin-top: 180px;
+   font-size: 25px;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    height: 30rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+     /* text-align: center;  */
+    background-color: white;
+    width: 20rem;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(221, 117, 19);
+}
+button{
+    background-color: rgb(221, 117, 19);
+    border: none;
+    border-radius: 20px;
+    width: 7rem;
+    height: 2rem;
+    margin-top: 10px;
+    color: white;
+}
+.don{
+    margin-top: auto;
+}
+
+@media (min-width: 320px) and (max-width: 500px){
+    .all{
+        flex-wrap: wrap;
+        width: 20rem;
+        margin: 0 auto;
+    
+    }.form{
+        width: 20rem;
+        padding-left: 20px;
+    }.p{
+        height: 240px;
+    }.p p{
+      margin-top: 100px;
+    }
+    
+}
+
+.keep{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.log{
+    text-align: center;
+}

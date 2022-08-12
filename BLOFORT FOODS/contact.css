@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+}
+
+#contact{
+    color: white;
+}
+
+
+ input, textarea{
+    width: 60vw;
+    border-radius: 10px;
+    
+}
+
+
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2vw;
+    align-items: center;
+    color: rgb(231, 161, 8);
+}
+
+.social img{
+    width: 1rem;
+    border-radius: 10px;
+}
+
+.contact h2,p{
+    text-align: center; 
+ }
+
+.send{
+    width: 19vw;
+    background-color: rgb(231, 161, 8);
+    color: white;
+    border: 0;
+    height: 5vw;
+} 
+@media(min-width:600px){
+    input{
+        height: 50px;
+        border-radius: 50px;
+    }textarea{
+        height: 200px;
+    }.send{
+         border-radius: 50px;
+    }
+}
+
+.submit button{
+   width: 5rem !important; 
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(231, 161, 8);
+  color: white;
+  border: 0;
+  border-radius: 20px;
+  height: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.submit{
+    text-align: center;
+}
+
+@media(min-width:992px){
+    #navbarSupportedContent{
+  margin-left: 250px;
+    }.cart{
+        margin-right: 50px;
+    }
+}

@@ -1,0 +1,391 @@
+body{
+    margin: 0;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+li{
+    display: inline-block;
+    /* margin-left: 10px; */
+    font-size: 0.7em;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+   color:rgb(212, 140, 7);
+   transition: 1s;
+}
+ /* .about */
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.imag{
+    width: 15rem;
+}
+
+.why{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whyy{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.whyy img{
+    height: 3rem;
+}
+
+
+
+.pp a{
+    color: white;
+}
+
+
+@media(min-width:600px){
+    .about{
+        flex-wrap: nowrap;
+        text-align: left;
+        /* justify-content: center; */
+        /* align-items: center; */
+        font-size: 2vw;
+        margin: 30px;
+        gap: 30px;
+    }.whyy{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        font-size: 2vw;
+        gap: 20px;
+        margin: 30px;
+    }.imag{
+        width: 20rem;
+    }li{
+        margin-left: 20px;
+    }
+}
+
+@media(min-width:992px){
+    #navbarSupportedContent{
+  margin-left: 250px;
+    }.cart{
+        margin-right: 50px;
+    }
+}
+
+
+
+@media(min-width:1000px){
+    .about{
+        margin: 90px;
+    }.imag{
+    width: 30rem;
+        
+    }li{
+        font-size: 20px;
+    }.discover{
+       border-bottom-right-radius: 300px / 500px;
+    }
+}
+
+
+/* Logged-in */
+.discover{
+    display: flex;
+   background-color: rgb(248, 231, 234);
+   padding-left: 15px;
+   border-bottom-right-radius: 150px;
+}
+
+@media(min-width:575px){
+    .discount .popular{
+        flex-wrap: nowrap;
+        justify-content: space-around;
+        background-color: black;
+        /* margin: 20px; */
+    }.first,.chicken{
+        margin-left: 20px;
+
+    }.discover{
+        font-size: 2vw;
+
+    }
+}
+.text{
+    width: 50%;
+}
+
+button{
+    background-color: rgb(202, 134, 7);
+    border: 0;
+    border-radius: 20px;
+    color: white;
+    font-size:0.5em;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.discount{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.first{
+   width: 18rem;
+   background-color: rgb(221, 216, 216);
+   margin-bottom: 30px;
+   border-radius: 20px;
+}
+
+input[type="radio"]{
+    color: white;
+
+}
+
+.discount img{
+    width: 18rem;
+}
+.but input{
+    color: rgb(202, 134, 7);
+    border: 1px solid rgb(202, 134, 7);
+    border-radius: 10px;
+    font-size: 1rem;
+    margin: 50px auto 50px auto;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.popular{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.muffen,.plus{
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+
+.plus{
+    color: rgb(202, 134, 7);
+    margin-bottom: 20px;
+}
+
+.chicken{
+    border: 1px solid;
+    width: 15rem;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /* border-radius: 10px; */
+}
+
+
+.social img{
+    width: 0.8rem;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.ea{
+    background-color: rgb(202, 134, 7);
+    border: 0;
+    border-radius: 7px;
+    color: white;
+}
+
+@media(min-width:480px){
+    .chicken{
+        margin: 1.5rem;
+    }
+}
+
+@media(min-width:1150px){
+    .chicken{
+        margin: 3rem;
+    }
+}
+
+@media(min-width:1344px){
+    .chicken{
+        margin: 5rem;
+        width: 20rem;
+        font-size: 1.5rem;
+    }
+    .popular img{
+        width: 19.9rem;
+        /* border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border-top-right-radius: 9.8px; */}
+}
+
+@media(min-width:490px){
+    .text{
+        align-self: center;
+    }.text h6{
+        font-size: 3vw;
+    }.text p{
+        font-size: 3000px;
+    }
+}
+
+
+.image{
+    width: 14.9rem;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 9.8px;
+}
+
+.send{
+    display: flex;
+    width: 14.5rem;
+    border: 1px solid;
+    margin: 0 auto;
+    margin-bottom: 30px;
+   
+}
+
+footer{
+    background-image: linear-gradient(rgb(10, 10, 10), rgb(10, 10, 10));
+    color: white;
+    font-size: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pp a{
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Home */
+
+.testimonials{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    text-align: center;
+    background-color: rgb(240, 198, 203);
+}
+@media(min-width:650px){
+    .testimonials{
+        flex-wrap: nowrap;
+    }
+}
+.mitchelle{
+    background-color: white;
+    margin: 30px;
+}
+
+.discover p{
+    font-size: 10px;
+}
+
+@media(min-width:500px){
+    #we{
+   font-size: 2vw;
+    }
+}
+
+
+/* Our Chef */
+
+.don{
+    display: flex;
+    justify-content: space-around;
+}
+.our{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+ 
+}
+
+.our div{
+    background-color: rgb(233, 231, 231);
+    margin-bottom: 20px;
+    width: 15rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+ 
+}
+div p{
+    padding: 0px 10px;
+}
+
+@media (min-width: 976px){
+    .don{
+       margin: 0px !important;
+    }
+    .our{
+        display: flex;
+        
+    }
+    .our div{
+      margin: 2rem;
+      width: 20rem;
+        
+    }
+}
+
+@media (min-width: 496px) and (max-width: 735px){
+    .don{
+        margin: 0px !important;
+     }
+    .our div{
+        margin: 1rem;
+    }
+}
+
+@media (min-width: 736px) and (max-width: 975px){
+    .don{
+        margin: 0px !important;
+     }
+    .our div{
+        margin: 1rem;
+    }
+}
+
+h3{
+    color: rgb(221, 117, 19);
+}
+
+.topic{
+    text-align: center;
+}
+
+/* cart */
+
+
+
+
